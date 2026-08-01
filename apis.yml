@@ -1,9 +1,31 @@
 aid: rapidfort
 name: RapidFort
-description: RapidFort is a company surfaced as a portfolio company of bloomberg-beta, felicis and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  RapidFort is a software supply chain security platform focused on container
+  hardening and automated CVE remediation. Its platform analyzes container
+  vulnerabilities across build and runtime, profiles what software actually
+  executes, and removes unused components to shrink the attack surface -
+  remediating up to 95% of CVEs without code changes. RapidFort publishes a
+  registry of 9,000+ near-zero-CVE curated container images and malware-scanned
+  open-source libraries, and its CART capability automates compliance validation
+  and remediation reporting for programs such as FedRAMP, cATO, CMMC, NIS2, and
+  SOC 2. The company operates its platform through a hosted web application and a
+  command-line workflow (analyze, profile, harden), with an open-source
+  community-images catalog and the Kimia Kubernetes-native OCI image builder
+  published on GitHub.
 url: https://raw.githubusercontent.com/api-evangelist/rapidfort/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/655799ca687df0d5ad6a991e/655799ca687df0d5ad6a9955_Rapidfort.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,9 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Security
+- Container Security
+- Software Supply Chain
+- Vulnerability Management
+- DevSecOps
+- Compliance
+- Containers
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.rapidfort.com/
+- type: DeveloperPortal
+  url: https://us01.rapidfort.com/
+- type: Documentation
+  url: https://docs.rapidfort.com/
+- type: Login
+  url: https://us01.rapidfort.com/
+- type: Blog
+  url: https://www.rapidfort.com/resources/blog
+- type: GitHubOrganization
+  url: https://github.com/rapidfort
+- type: Support
+  url: https://www.rapidfort.com/contact-us
+- type: HelpCenter
+  url: https://www.rapidfort.com/faq
+- type: TermsOfService
+  url: https://www.rapidfort.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.rapidfort.com/privacy-policy
+- type: LLMsTxt
+  url: llms/rapidfort-llms.txt
+- type: DomainSecurity
+  url: security/rapidfort-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
